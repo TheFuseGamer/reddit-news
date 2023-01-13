@@ -1,0 +1,39 @@
+.post {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f1f1;
+  transition: all 0.2s ease-in-out;
+  width: 100vw;
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e1e1e1;
+  }
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    a {
+      color: #000;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__meta {
+    font-size: 0.9rem;
+    color: #666;
+    &__author {
+      margin-right: 0.5rem;
+    }
+    &__comments {
+      margin-right: 0.5rem;
+    }
+    &__score {
+      margin-right: 0.5rem;
+    }
+  }
+}
